@@ -1,0 +1,74 @@
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="loadScreen">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header d-flex justify-content-center">
+                <div id="spinner" class="spinner-border text-primary mt-2" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <h5 class="modal-title cpuAdjustmodal ml-2" id="loadScreen">CPU deciding...</h5>
+            </div>
+            <div class="modal-footer d-flex justify-content-center">
+                <button id="CPUseeResultsBtn" type="resultsButton" class="btn btn-primary resultsBtnFont"
+                    data-bs-dismiss="modal" disabled>Results</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-12 d-flex justify-content-center mb-5 ">
+            <h1 class="rounds" id ="rounds"></h1>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-4 d-flex justify-content-center mb-5 ">
+            <i class="fas fa-robot fa-10x d-none" id="cpuAnimation"></i>
+        </div>
+        <div class="col-4 d-flex justify-content-center mb-5 ">
+            <i class="fas fa-user fa-10x d-none " id="playerAnimation"></i>
+        </div>
+        <div class="col-2"></div>
+
+        <div class="col-2"></div>
+        <div class="col-4 d-flex justify-content-center mb-5 ">
+            <h2 id="cpuAnimation2" class="d-none"></h2>
+        </div>
+        <div class="col-4 d-flex justify-content-center mb-5">
+            <h2 id="playerAnimation2" class="resultsPlayer d-none">Player chose:</h2>
+        </div>
+        <div class="col-2"></div>
+
+        <div class="col-2"></div>
+        <div class="col-4 d-flex justify-content-center">
+            <img id="cpuAnimation3" class="d-none" src="../pictures/spongebobGhost.png" alt="">
+        </div>
+        <div class="col-4 d-flex justify-content-center">
+            <img id="playerAnimation3" class="resultsPlayer d-none" src="../pictures/spongebobGhost.png" alt="">
+        </div>
+    </div>
+    <div class="col-2"></div>
+    <div class="row">
+        <div class="col-12 d-flex justify-content-center mt-5 mb-2  ">
+
+            <h1 class="results d-none" id="results"></h1>
+        </div>
+        <div class="col-6 d-none justify-content-center mt-5 mb-2" id="playAgain">
+            <button type="button" class="btn btn-primary btn-lg resultsButton">Play Again?</button>
+        </div>
+        <div class="col-6 d-none justify-content-center mt-5 mb-2 " id="reset">
+            <button type="button" class="btn btn-primary btn-lg resultsButton">Back to Menu?</button>
+        </div>
+        <div class="col-12 d-none justify-content-center mt-5 mb-2 " id="nextRound">
+            <button type="button" class="btn btn-primary btn-lg resultsButton" id="nextRound2"></button>
+        </div>
+       
+    </div>
+</div>
+

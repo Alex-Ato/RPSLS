@@ -1,0 +1,41 @@
+
+
+.rounds{
+    font-size: 4rem;
+}
+.results{
+    font-size: 4rem;
+}
+
+.resultsButton {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #3ebfc9;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .resultsButton:hover {background-color: #3ebfc9}
+  
+  .resultsButton:active,.button:focus {
+    background-color: #3ebfc9;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .resultsPlayer{
+      margin: 0 !important;
+      padding: 0 !important;
+  }
+
+.cpuAdjustmodal{
+    font-size: 2rem;
+}
+.resultsBtnFont{
+    width: 100px;
+}

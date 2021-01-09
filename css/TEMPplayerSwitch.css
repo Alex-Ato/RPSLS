@@ -1,0 +1,39 @@
+.switchPlayerBG{
+    background: url(../pictures/backgroundIMG4FinalResults.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+    
+.pushDown{
+    margin-top: 5%;
+}
+
+.adjustHeight{
+    padding-top: 5%;
+}
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #3ebfc9;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3ebfc9}
+  
+  .button:active,.button:focus {
+    background-color: #3ebfc9;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .overallColor{
+      color: white;
+  }
